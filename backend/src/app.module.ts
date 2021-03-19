@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 
-import { IndexModule } from '@infraestructure/module/index.module';
+import { ApiModule } from '@infraestructure/module/api.module';
 
 @Module({
-    imports: [IndexModule],
+    imports: [ApiModule],
 })
 export class AppModule {}
